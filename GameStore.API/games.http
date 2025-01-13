@@ -1,0 +1,29 @@
+http://localhost:5241/games
+
+###
+http://localhost:5241/games/4
+
+###
+POST http://localhost:5241/games
+Content-Type: application/json
+
+{
+  "name":"MineCraft",
+  "genre":"Kids and Family",
+  "price":19.99,
+  "releaseDate":"2011-11-18"
+}
+
+###
+PUT http://localhost:5241/games/6
+Content-Type: application/json
+
+{
+  "name":"street fighter II Turbo",
+  "genre":"Fighting",
+  "price":29.99,
+  "releaseDate":"2012-11-18"
+}
+
+###
+DELETE http://localhost:5241/games/4
